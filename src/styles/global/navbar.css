@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    box-shadow: 0 4px 10px var(--shadow-color);
+    width: 100%;
+    z-index: 99;
+}
+
+.logo-navbar {
+    height: 60px;
+    margin-top: 4px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.logo-navbar-2 {
+    height: 60px;
+    user-select: none;
+    pointer-events: none;
+}

@@ -1,0 +1,428 @@
+.sectionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: 0 4px 10px var(--shadow-color);
+    color: var(--background-color);
+    border-radius: 0 0 50px 50px;
+}
+
+.sectionHeader {
+    text-align: start;
+    width: 320px;
+}
+
+.sectionHeader h1 {
+    padding-top: 20px;
+    font-size: 79px;
+    line-height: 0.9;
+}
+
+.sectionContent1 {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+    padding: 20px 10px;
+}
+
+.sectionContent1 p {
+    margin-right: 100px;
+}
+
+.imagenMascota {
+    position: absolute;
+    top: -101%;
+    left: 60%;
+}
+
+.imagenMascota img {
+    width: 130px;
+    filter: drop-shadow(0px 0px 40px var(--background-color));
+    user-select: none;
+    pointer-events: none;
+}
+
+.sectionContent2 {
+    background-color: var(--background-color);
+    box-shadow: -4px 0 10px var(--shadow-color);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+}
+
+.sectionContent2 h3 {
+    font-size: 16px;
+    padding-top: 10px;
+    color: var(--text-color);
+}
+
+.sectionContent2Cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionContent2Cards img {
+    width: 60px;
+    user-select: none;
+    pointer-events: none;
+}
+
+.sectionContent2Card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px var(--shadow-color);
+    color: var(--background-color);
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin: 10px 0px;
+    font-size: 16px;
+    width: 310px;
+}
+
+.sectionCardsText {
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    width: 310px;
+    height: 80px;
+    padding: 0px 10px;
+    color: var(--text-color);
+}
+
+.sectionContent2Button button {
+    margin: 20px 0;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: var(--background-color);
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px var(--shadow-color);
+}
+
+@media (min-width: 576px) {
+    .sectionHeader {
+        width: 520px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 105px;
+        line-height: 0.8;
+    }
+
+    .sectionContent1 {
+        padding-bottom: 30px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 250px;
+        font-size: 20px;
+    }
+
+    .imagenMascota {
+        top: -122%;
+        left: 65%;
+    }
+
+    .imagenMascota img {
+        width: 180px;
+        filter: drop-shadow(0px 0px 60px var(--background-color));
+    }
+
+    .sectionContent2 {
+        padding: 5px 30px;
+        margin-bottom: 30px;
+    }
+
+    .sectionContent2 h3 {
+        font-size: 20px;
+    }
+
+    .sectionContent2Card {
+        padding: 5px 70px;
+        font-size: 20px;
+        width: 460px;
+    }
+
+    .sectionCardsText {
+        width: 450px;
+        height: 70px;
+    }
+
+    .sectionContent2Button button {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .sectionHeader {
+        width: 680px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 137px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 40px;
+    }
+
+    .sectionContent1 {
+        padding-bottom: 50px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 340px;
+        font-size: 25px;
+    }
+
+    .imagenMascota {
+        top: -133%;
+        left: 63%;
+    }
+
+    .imagenMascota img {
+        width: 250px;
+        filter: drop-shadow(0px 0px 80px var(--background-color));
+    }
+
+    .sectionContent2 {
+        padding: 5px 20px;
+    }
+
+    .sectionContent2 h3 {
+        font-size: 25px;
+    }
+
+    .sectionContent2Card {
+        padding: 5px 110px;
+        font-size: 25px;
+        width: 640px;
+    }
+
+    .sectionCardsText {
+        width: 630px;
+        height: 50px;
+        padding: 0px 20px;
+    }
+
+    .sectionContent2Cards img {
+        width: 80px;
+    }
+}
+
+@media (min-width: 992px) {
+    .sectionHeader {
+        width: 600px;
+        margin-right: 190px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 140px;
+        padding-top: 30px;
+    }
+
+    .sectionContent1 {
+        padding-bottom: 20px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 450px;
+    }
+
+    .imagenMascota {
+        top: -263%;
+        left: 62%;
+    }
+
+    .imagenMascota img {
+        width: 300px;
+        filter: drop-shadow(0px 0px 100px var(--background-color));
+    }
+
+    .sectionContent2Cards {
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    .sectionContent2Card {
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px 10px;
+        font-size: 16px;
+        width: 160px;
+    }
+
+    .sectionCardsText {
+        position: absolute;
+        width: 900px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .textoActivo {
+        padding-bottom: 30px;
+    }
+
+    .sectionContent2Cards img {
+        width: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .sectionHeader {
+        margin-right: 180px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 130px;
+        padding-top: 20px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 30px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 510px;
+        font-size: 20px;
+    }
+
+    .imagenMascota {
+        top: -271%;
+        left: 68%;
+    }
+
+    .imagenMascota img {
+        width: 270px;
+    }
+
+    .sectionContent2 {
+        padding: 5px 40px;
+    }
+
+    .sectionContent2Card {
+        font-size: 18px;
+        width: 177px;
+    }
+
+    .sectionCardsText {
+        font-size: 18px;
+    }
+
+    .textoActivo {
+        padding-bottom: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .sectionHeader {
+        margin-right: 370px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 160px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 40px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 620px;
+        font-size: 25px;
+    }
+
+    .imagenMascota {
+        top: -291%;
+        left: 68%;
+    }
+
+    .imagenMascota img {
+        width: 340px;
+    }
+
+    .sectionContent2 {
+        margin-top: 20px;
+        padding: 5px 50px;
+    }
+
+    .sectionContent2 h3 {
+        font-size: 30px;
+    }
+
+    .sectionContent2Card {
+        font-size: 20px;
+        width: 200px;
+    }
+
+    .sectionContent2Cards img {
+        width: 80px;
+    }
+
+    .sectionContent2Button button {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .sectionHeader {
+        margin-right: 420px;
+    }
+
+    .sectionHeader h1 {
+        font-size: 180px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .sectionContent1 p {
+        margin-right: 600px;
+        font-size: 30px;
+    }
+
+    .imagenMascota {
+        top: -290%;
+        left: 65%;
+    }
+
+    .imagenMascota img {
+        width: 400px;
+    }
+
+    .sectionContent2 {
+        margin-top: 40px;
+    }
+
+    .sectionContent2 h3 {
+        font-size: 35px;
+    }
+
+    .sectionCardsText {
+        font-size: 20px;
+    }
+
+    .textoActivo {
+        padding-bottom: 50px;
+    }
+
+    .sectionContent2Button button {
+        font-size: 40px;
+    }
+}

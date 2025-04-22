@@ -1,0 +1,16 @@
+.bebas-text {
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+}
+
+.bold-text {
+    font-family: 'Montserrat', serif;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    font-weight: 800;
+}
+
+.light-text {
+    font-family: 'Montserrat', serif;
+    text-shadow: 2px 2px 4px var(--shadow-color);
+    font-weight: 400;
+}
