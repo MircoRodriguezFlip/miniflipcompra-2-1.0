@@ -1,0 +1,32 @@
+.boton-1 {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    padding: 5px 50px;
+    border-radius: 10px;
+    color: var(--background-color);
+    background: linear-gradient(var(--primary-color) 10%, var(--secondary-color));
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+}
+
+@media (min-width: 576px) {
+    .boton-1 {
+        padding: 6px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    .boton-1 {
+        padding: 6px 30px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .boton-1 {
+        padding: 6px 50px;
+        font-size: 24px;
+    }
+}

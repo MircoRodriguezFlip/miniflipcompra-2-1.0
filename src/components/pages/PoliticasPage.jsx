@@ -3,8 +3,8 @@ import styles from '../../styles/modules/politicasPage.module.css';
 import { NavLink } from 'react-router-dom';
 
 const FLIP_LINK = (
-    <NavLink to="/" title="ir a www.compramoscasas.com.mx">
-        compramoscasas
+    <NavLink to="/" title="ir a www.venderunacasa.com.mx">
+        venderunacasa
     </NavLink>
 );
 
@@ -13,7 +13,7 @@ const PoliticasPage = () => {
         <main className={styles.politicasContainer}>
             <header className={`${styles.politicasTitulo} bold-text`}>
                 <h1>Política de Privacidad</h1>
-                <h2>compramoscasas.com.mx</h2>
+                <h2>venderunacasa.com.mx</h2>
                 <h3>[21/04/25]</h3>
             </header>
 
