@@ -19,7 +19,7 @@ const routes = [
 
 function App() {
     return (
-        <BrowserRouter basename="/miniflipcompra-2-1.0">
+        <BrowserRouter>
             <ScrollToTop />
 
             <NavBar />
