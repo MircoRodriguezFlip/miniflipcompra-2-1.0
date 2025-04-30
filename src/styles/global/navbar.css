@@ -7,6 +7,8 @@
     box-shadow: 0 4px 10px var(--shadow-color);
     width: 100%;
     z-index: 99;
+    gap: 10px;
+    height: 65px;
 }
 
 .logo-navbar {
@@ -17,7 +19,17 @@
 }
 
 .logo-navbar-2 {
-    height: 60px;
+    height: 40px;
     user-select: none;
     pointer-events: none;
+}
+
+@media (min-width: 576px) {
+    .navbar {
+        gap: 20px;
+    }
+
+    .logo-navbar-2 {
+        height: 60px;
+    }
 }

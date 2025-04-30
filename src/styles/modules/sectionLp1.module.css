@@ -12,13 +12,18 @@
 
 .sectionHeader {
     text-align: start;
-    width: 320px;
+    width: 310px;
+    margin-bottom: 10px;
 }
 
 .sectionHeader h1 {
     padding-top: 20px;
-    font-size: 79px;
-    line-height: 0.9;
+    font-size: 60px;
+    line-height: 0.8;
+}
+
+.sectionHeader h2 {
+    font-size: 16px;
 }
 
 .sectionContent1 {
@@ -27,17 +32,19 @@
     justify-content: space-between;
     align-items: center;
     text-align: start;
-    padding: 20px 10px;
+    width: 360px;
+    padding: 10px 10px;
 }
 
 .sectionContent1 p {
-    margin-right: 100px;
+    margin-right: 80px;
+    margin-bottom: 10px;
 }
 
 .imagenMascota {
     position: absolute;
-    top: -101%;
-    left: 60%;
+    top: -8%;
+    left: 62%;
 }
 
 .imagenMascota img {
@@ -119,22 +126,25 @@
     }
 
     .sectionHeader h1 {
-        font-size: 105px;
-        line-height: 0.8;
+        font-size: 80px;
+    }
+
+    .sectionHeader h2 {
+        font-size: 22px;
     }
 
     .sectionContent1 {
-        padding-bottom: 30px;
+        width: 520px;
+        padding: 10px 10px;
     }
 
     .sectionContent1 p {
-        margin-right: 250px;
-        font-size: 20px;
+        margin-right: 110px;
     }
 
     .imagenMascota {
-        top: -122%;
-        left: 65%;
+        top: -73%;
+        left: 69%;
     }
 
     .imagenMascota img {
@@ -173,29 +183,28 @@
     }
 
     .sectionHeader h1 {
-        font-size: 137px;
+        font-size: 100px;
     }
 
     .sectionHeader h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .sectionContent1 {
-        padding-bottom: 50px;
+        width: 680px;
     }
 
     .sectionContent1 p {
-        margin-right: 340px;
-        font-size: 25px;
+        margin-right: 200px;
     }
 
     .imagenMascota {
-        top: -133%;
-        left: 63%;
+        top: -102%;
+        left: 72%;
     }
 
     .imagenMascota img {
-        width: 250px;
+        width: 210px;
         filter: drop-shadow(0px 0px 80px var(--background-color));
     }
 
@@ -231,25 +240,24 @@
     }
 
     .sectionHeader h1 {
-        font-size: 140px;
         padding-top: 30px;
     }
 
     .sectionContent1 {
-        padding-bottom: 20px;
+        width: 800px;
     }
 
     .sectionContent1 p {
-        margin-right: 450px;
+        margin-right: 150px;
     }
 
     .imagenMascota {
-        top: -263%;
-        left: 62%;
+        top: -217%;
+        left: 65%;
     }
 
     .imagenMascota img {
-        width: 300px;
+        width: 280px;
         filter: drop-shadow(0px 0px 100px var(--background-color));
     }
 
@@ -283,33 +291,6 @@
 }
 
 @media (min-width: 1200px) {
-    .sectionHeader {
-        margin-right: 180px;
-    }
-
-    .sectionHeader h1 {
-        font-size: 130px;
-        padding-top: 20px;
-    }
-
-    .sectionHeader h2 {
-        font-size: 30px;
-    }
-
-    .sectionContent1 p {
-        margin-right: 510px;
-        font-size: 20px;
-    }
-
-    .imagenMascota {
-        top: -271%;
-        left: 68%;
-    }
-
-    .imagenMascota img {
-        width: 270px;
-    }
-
     .sectionContent2 {
         padding: 5px 40px;
     }
@@ -329,34 +310,7 @@
 }
 
 @media (min-width: 1400px) {
-    .sectionHeader {
-        margin-right: 370px;
-    }
-
-    .sectionHeader h1 {
-        font-size: 160px;
-    }
-
-    .sectionHeader h2 {
-        font-size: 40px;
-    }
-
-    .sectionContent1 p {
-        margin-right: 620px;
-        font-size: 25px;
-    }
-
-    .imagenMascota {
-        top: -291%;
-        left: 68%;
-    }
-
-    .imagenMascota img {
-        width: 340px;
-    }
-
     .sectionContent2 {
-        margin-top: 20px;
         padding: 5px 50px;
     }
 
@@ -380,34 +334,33 @@
 
 @media (min-width: 1700px) {
     .sectionHeader {
-        margin-right: 420px;
+        width: 800px;
+        padding-top: 60px;
     }
 
     .sectionHeader h1 {
-        font-size: 180px;
+        font-size: 140px;
     }
 
     .sectionHeader h2 {
-        font-size: 50px;
-        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    .sectionContent1 {
+        width: 1000px;
     }
 
     .sectionContent1 p {
-        margin-right: 600px;
-        font-size: 30px;
+        font-size: 20px;
     }
 
     .imagenMascota {
-        top: -290%;
-        left: 65%;
+        top: -247%;
+        left: 73%;
     }
 
     .imagenMascota img {
-        width: 400px;
-    }
-
-    .sectionContent2 {
-        margin-top: 40px;
+        width: 350px;
     }
 
     .sectionContent2 h3 {

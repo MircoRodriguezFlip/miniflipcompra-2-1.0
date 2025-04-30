@@ -16,14 +16,15 @@ export const SectionLp1 = () => {
     return (
         <section className={styles.sectionContainer}>
             <header className={styles.sectionHeader}>
-                <h1 className="bebas-text">COMPRAMOS TU CASA</h1>
-                <h2 className="light-text">Vende tu casa</h2>
+                <h1 className="bebas-text">COMPRAMOS TU CASA INFONAVIT</h1>
+                <h2 className="light-text">¿Tu casa tiene adeudo Infonavit?</h2>
             </header>
 
             <div className={styles.sectionContent1}>
                 <div>
-                    <p className="light-text">Rápido y seguro</p>
-                    <p className="light-text">¡Déjalo en nuestras manos!</p>
+                    <p className="light-text">¡No te preocupes!</p>
+                    <p className="light-text">La compramos rápido, con asesoría personalizada y sin complicaciones</p>
+                    <p className="light-text">¡Déjalo en manos de expertos!</p>
                 </div>
 
                 <div className={styles.imagenMascota}>
