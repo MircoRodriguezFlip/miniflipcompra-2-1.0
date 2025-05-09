@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://www.quierovendermicasainfonavit.com.mx/sitemap.xml
+Sitemap: https://www.quierovendermicasa.com.mx/sitemap.xml
